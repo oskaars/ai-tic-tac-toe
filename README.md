@@ -17,7 +17,7 @@ By default, the script is configured for gameplay against the existing AI model.
 1. Ensure the `game()` function is called at the very bottom of the file.
 2. Run the script in your terminal.
 3. The AI plays as **X** and you play as **O**. 
-4. When prompted, select your move by entering a number from `0` to `8` (corresponding to the board tiles from top-left to bottom-right).
+4. When prompted, select your move by entering a number from `1` to `9` (corresponding to the board tiles from top-left to bottom-right).
 
 ## Training a New Model
 
