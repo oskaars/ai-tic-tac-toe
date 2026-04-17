@@ -14,3 +14,27 @@ This project requires Python 3. Install the required dependencies using pip:
 
 ```bash
 pip install numpy gymnasium
+
+
+```
+How to Play
+Run the Python script in your terminal.
+
+Upon startup, the script will attempt to load bot_brain.pkl. If the file does not exist, the bot will initialize with zero prior knowledge.
+
+The AI plays as X and you play as O.
+
+Select your move by entering a number from 1 to 9 (corresponding to the board tiles from top-left to bottom-right).
+
+The game runs in an infinite loop. After each match, the bot processes the final reward, updates its internal Q-Table, and immediately resets the board for a new game.
+
+The bot's knowledge is saved automatically (ensure bot.save() is called appropriately in your script loop).
+
+Technologies Used
+Python 3 - Core environment and algorithm logic.
+
+Gymnasium - Standard API structure for the Reinforcement Learning environment.
+
+NumPy - Data structures and efficient value calculations.
+
+Pickle - Built-in Python module for state serialization and memory saving.
